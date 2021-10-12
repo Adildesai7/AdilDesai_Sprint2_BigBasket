@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.103">
+    <testcase classname="BigBasket Offers" name="To check whether items in offer page is added to cart and quantity is change" time="20.937">
+        <system-out><![CDATA[Given User is in Home Page..................................................passed
+When User clicks on Offer button............................................passed
+And User click on add to cart button........................................passed
+And User clicks on cart/basket button.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

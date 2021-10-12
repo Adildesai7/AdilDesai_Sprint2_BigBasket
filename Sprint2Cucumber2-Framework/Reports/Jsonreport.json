@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-08T11:39:49.313Z",
+        "line": 3,
+        "name": "To check whether items in offer page is added to cart and quantity is change",
+        "description": "",
+        "id": "bigbasket-offers;to-check-whether-items-in-offer-page-is-added-to-cart-and-quantity-is-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7942579400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Home Page",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1137897100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Offer button",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_clicks_on_offer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5773469800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on add to cart button",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6060552900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on cart/basket button",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_clicks_on_cart_basket_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "BigBasket Offers",
+    "description": "",
+    "id": "bigbasket-offers",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/offers.feature",
+    "tags": []
+  }
+]
